@@ -16,7 +16,7 @@ pipenv install
 ./restart.sh
 ```
 
-Once the servers are running, I copy the cert.pem down to my machine, and test it with:
+Once the servers are running, I copy the cert.pem down to my machine, put it in the same folder as `example.py`, and test it with:
 
 ```
 PROXY_IP=41.193.... PROXY_PORT=8001 PROXY_TOKEN=hello python3 example.py
