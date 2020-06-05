@@ -2,9 +2,13 @@
 
 spooky self-signed token-authenticated proxy for [Jikan](https://github.com/jikan-me/jikan-rest/)
 
-How I run this:
+### Setup
+
+On a VPS/VM somewhere to use as a proxy:
 
 Install: `python`, `pipenv`, `npm`, `openssl`
+
+Set this up, use `forever` to daemonize processes.
 
 ```
 git clone https://gitlab.com/seanbreckenridge/docker-jikan ../docker-jikan  # and set that up
