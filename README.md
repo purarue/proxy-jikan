@@ -13,11 +13,11 @@ Set this up, use `forever` to daemonize processes.
 ```
 git clone https://gitlab.com/seanbreckenridge/docker-jikan ../docker-jikan  # and set that up
 sudo npm install -g forever
-./setup.sh
+./setup
 export PROXY_PORT=8001
 export PROXY_TOKEN=hello
 pipenv install
-./restart.sh
+./restart
 ```
 
 Once the servers are running, I copy the cert.pem down to my machine, put it in the same folder as `example.py`, and test it with:
