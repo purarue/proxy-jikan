@@ -11,7 +11,7 @@ Install: `python`, `pipenv`, `npm`, `openssl`
 Set this up, use `forever` to daemonize processes.
 
 ```
-git clone https://github.com/seanbreckenridge/docker-jikan ../docker-jikan  # and set that up
+git clone https://github.com/purarue/docker-jikan ../docker-jikan  # and set that up
 sudo npm install -g forever
 ./setup
 export PROXY_PORT=8001
